@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-image: url("https://i.pinimg.com/736x/91/35/2d/91352d3dccba0b435f5251623a8c29d2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Pattaya', sans-serif;
+    color: white;
+}
+
+#main-container{
+    display: flex;
+    height: 95vh;
+    align-items: flex-end;
+}
+#roof1{
+    height:20px;
+    margin:10px auto 0 auto;width: 0;
+    
+    border-style: solid;
+    border-width: 0 120px 120px 120px;
+    border-color: transparent transparent yellow transparent;
+    }
+#wall1{
+      border:2px solid rgb(58, 10, 10);
+      background-color: white;
+      width:200px;
+      height:150px;
+      margin:0px auto; 
+      position:relative;
+    }
+    
+#kitten-image{
+    width: 190px;
+}
+
+#roof2{
+    height:30px;
+    margin:15px auto 0 auto;
+    width: 0;
+    border-style: solid;
+    border-width: 0 200px 200px 200px;
+    border-color: transparent transparent red transparent;
+    }
+#wall2{
+      border:2px solid rgb(58, 10, 10);
+      background-color: white;
+      width:200px;
+      height:200px;
+      margin:0px auto; 
+      position:relative;
+    }
+    
+#puppy-image{
+    width: 160px;
+}
+
+#wall2{
+    padding: 50px;
+}
+
+#wall2{
+    border:20px solid rgb(58, 10, 10);
+}
+
+#house2{
+    margin-left: 50%;
+}
